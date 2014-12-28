@@ -1,0 +1,89 @@
+body {
+    background-color: cadetblue;
+    cursor: default;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #7b1500;
+    transition: 0.2s text-shadow;
+}
+
+a:hover {
+    text-shadow: 0px 0px 2px #7b2a1a;
+}
+
+div {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+    color: #841E04;
+}
+
+#container {
+    margin: 2em 5em;
+    align-items: left;
+    min-width: 40em;
+}
+
+#content {
+    min-width: 40em;
+}
+
+.frame {
+    background-color: #E0A956;
+    padding: 1em;
+    margin: 0.5em 2em;
+    overflow: auto;
+    clear: both;
+    animation: darken 0.5s 1;
+    transition: 0.5s background-color;
+}
+
+.frame:hover {
+    background-color: #E6AF5C;
+}
+
+.main-headline {
+    color: #801A00;
+    font-size: 400%;
+    font-weight: 700;
+    padding: 0.5em;
+}
+
+#header {
+    min-height: 8em;
+}
+
+#header-left {
+    float: left;
+}
+
+#header-right {
+    padding: 0.5em;
+    float: right;
+    box-shadow: 1px 1px 3px #7B1500 inset;
+}
+
+#aka {
+    display: inline-block;
+    color: #7B1500;
+    font-size: 150%;
+}
+
+#subheading {
+    color: #994833;
+    font-size: 150%;
+    padding: 1em;
+}
+
+.project {
+    padding: 1em;
+}
+
+.project-header {
+    color: #7B1500;
+    font-size: 230%;
+    border-bottom: 1px solid;
+}
