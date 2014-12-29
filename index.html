@@ -8,29 +8,39 @@
 <body>
     <div id="container">
         <div class="frame" id="header">
-            <div id="header-left">
+            <div class="header-left">
                 <span class="main-headline">TidB</span><br>
                 <span id="subheading">Just writing some tools</span>
             </div>
-            <div id="header-right">
-                <a href="https://github.com/TidB" target="_blank"><span id="aka">GitHub</span></a><br>
-                <a href="http://steamcommunity.com/id/tidb" target="_blank"><span id="aka">Steam</span></a><br>
-                <a href="https://wiki.teamfortress.com/wiki/User:TidB" target="_blank"><span id="aka">Team Fortress Wiki</span></a><br>
+            <div class="header-right">
+                <a href="https://github.com/TidB" target="_blank"><span class="extlinks">GitHub</span></a><br>
+                <a href="http://steamcommunity.com/id/tidb" target="_blank"><span class="extlinks">Steam</span></a><br>
+                <a href="https://wiki.teamfortress.com/wiki/User:TidB" target="_blank"><span class="extlinks">Team Fortress Wiki</span></a><br>
             </div>
         </div>
-        <div class="frame" id="projects">
+        <div class="frame">
             <span class="main-headline">Projects</span>
-                <div class="project">
-                    <a href="https://tidb.github.io/WikiTranslator"><span class="project-header">WikiTranslator&nbsp;</span></a>
-                    <p>The WikiTranslator is a semi-automatic translation tool designed for the Official Team Fortress Wiki. It translates sentences commonly found on certain pages among with other automatic checks. Until now, it is available for seven languages and is updated regulary.<br><br>
-It is written in Python 3 and uses Tkinter as the GUI framework to make sure it can run on every computer with a functioning Python installation.
+            <div id="wrapper">
+                <div class="block" id="topic">
+                    <div class="topic-headline">
+                        <a href="wikitranslator.html"><span class="body-headline" id="project-headline">WikiTranslator</span></a>
+                    </div>
+                    <div class="text">
+                        <p>The WikiTranslator is a semi-automatic translation tool designed for the Official Team Fortress Wiki. It translates sentences commonly found on certain pages among with other automatic checks. Until now, it is available for seven languages and is updated regulary.<br><br>
+It is written in Python 3 and uses Tkinter as the GUI framework to make sure it can run on every computer with a functioning Python installation.</p>
+                    </div>
                 </div>
-                <div class="project">
-                    <a href="https://tidb.github.io/Operation_Cleanup"><span class="project-header">Operation Cleanup&nbsp;</span></a>
-                    <p>Operation Cleanup is an ongoing project dedicated to the Official Team Fortress Wiki. Its main goal is to increase the consistency among translated articles.<br><br>
+                <div class="block" id="topic">
+                    <div class="topic-headline">
+                        <a href="operationcleanup.html"><span class="body-headline" id="project-headline">Operation Cleanup</span></a>
+                    </div>
+                    <div class="text">
+                        <p>Operation Cleanup is an ongoing project dedicated to the Official Team Fortress Wiki. Its main goal is to increase the consistency among translated articles.<br><br>
 It is written in Python 3 and tries to fetch the several thousand pages as efficient as possible.</p>
+                    </div>
                 </div>
+
+            </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>
