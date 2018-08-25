@@ -105,6 +105,18 @@ html, body {
     transition-property: color, background-color;
 }
 
+.language-table {
+    line-height: 1.5;
+}
+
+.language-table th {
+    text-align: left;
+}
+
+.language-table td {
+    padding-right: 1em;
+}
+
 footer {
     flex-shrink: 0;
     background-color: #000000;
